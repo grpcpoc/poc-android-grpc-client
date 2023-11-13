@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/secondary_selector"
+
+    >
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_icon" />
+
+    <TextView
+        android:id="@+id/tvNameSecondList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"
+        android:paddingLeft="30dp"
+        android:paddingTop="3dp"
+
+        />
+
+</LinearLayout>
